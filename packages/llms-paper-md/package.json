@@ -1,0 +1,21 @@
+{
+  "name": "llms-paper-md",
+  "version": "0.0.1",
+  "description": "Specification and examples for llms-paper.md — structured academic paper summaries optimized for LLM discovery and citation",
+  "keywords": [
+    "llms.txt",
+    "academic",
+    "paper",
+    "LLM",
+    "citation",
+    "specification",
+    "markdown"
+  ],
+  "author": "moncface",
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/moncface/llms-md-spec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moncface/llms-md-spec"
+  }
+}

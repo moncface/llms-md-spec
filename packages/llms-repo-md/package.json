@@ -1,0 +1,21 @@
+{
+  "name": "llms-repo-md",
+  "version": "0.0.1",
+  "description": "Specification and examples for llms-repo.md — structured repository summaries optimized for LLM discovery",
+  "keywords": [
+    "llms.txt",
+    "repository",
+    "developer",
+    "LLM",
+    "specification",
+    "markdown",
+    "open-source"
+  ],
+  "author": "moncface",
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/moncface/llms-md-spec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moncface/llms-md-spec"
+  }
+}
