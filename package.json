@@ -1,0 +1,25 @@
+{
+  "name": "llms-md-spec",
+  "version": "0.0.1",
+  "description": "Usage guide for llms-paper.md and llms-repo.md — extending llms.txt for academic papers and repositories with .md extension",
+  "keywords": [
+    "llms.txt",
+    "llms",
+    "academic",
+    "paper",
+    "repository",
+    "specification",
+    "markdown",
+    "LLM",
+    "AI",
+    "discovery",
+    "citation"
+  ],
+  "author": "moncface",
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/moncface/llms-md-spec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moncface/llms-md-spec"
+  }
+}
