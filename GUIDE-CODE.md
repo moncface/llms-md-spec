@@ -56,7 +56,7 @@ Follows the [llmstxt.org](https://llmstxt.org/) specification.
 
     ## Temporal
     - `src/workaround/popover.ts`: Polyfill for Popover API. Remove after Chrome 130 stable (est. 2026-10)
-    - `src/compat/mv2-bridge.ts`: MV2 compatibility layer. Remove after MV2 sunset (2025-06, already passed — verify and remove)
+    - `src/compat/legacy-bridge.ts`: Legacy API compatibility layer. Remove after v2 API sunset (est. 2027-03)
 
     ## Heuristics
     - Debounce: 150ms for input events (100ms felt too aggressive, 200ms felt sluggish in user testing)
