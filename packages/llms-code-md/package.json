@@ -1,6 +1,6 @@
 {
   "name": "llms-code-md",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Specification for llms-code.md — structured codebase summaries preserving design intent for LLM coding agents",
   "keywords": [
     "llms.txt",
