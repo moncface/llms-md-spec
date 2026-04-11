@@ -4,11 +4,14 @@
 
 ## What This Is
 
-- A usage guide for two new file types: `llms-paper.md` and `llms-repo.md`
+- A usage guide for new file types: `llms-paper.md`, `llms-repo.md`, `llms-api.md`, `llms-docs.md`, and `llms-code.md`
 - Built on the llms.txt standard by Jeremy Howard (llmstxt.org)
 - Same Markdown format as llms.txt, but scoped by filename for different audiences
 - `llms-paper.md` targets researchers and academic workflows
 - `llms-repo.md` targets developers and open-source projects
+- `llms-api.md` targets API providers and integration developers
+- `llms-docs.md` targets documentation site maintainers
+- `llms-code.md` targets codebases with LLM-collaborative development workflows
 
 ## Why `.md` Instead of `.txt`
 
@@ -24,16 +27,38 @@
 - `llms.txt` → web operators ("that's for websites")
 - `llms-paper.md` → researchers ("that's for my paper")
 - `llms-repo.md` → developers ("that's for my project")
+- `llms-api.md` → API providers ("that's for my API")
+- `llms-docs.md` → documentation maintainers ("that's for my docs")
+- `llms-code.md` → developers ("that's for my codebase internals")
 - Same format, different audiences. The filename signals scope.
 
 ## Guides
 
 - See [GUIDE-PAPER.md](GUIDE-PAPER.md) for academic paper usage
 - See [GUIDE-REPO.md](GUIDE-REPO.md) for repository usage
+- See [GUIDE-API.md](GUIDE-API.md) for API specification usage
+- See [GUIDE-DOCS.md](GUIDE-DOCS.md) for documentation site usage
+- See [GUIDE-CODE.md](GUIDE-CODE.md) for codebase-level usage
 
 ## Example
 
 - See [example/mon-tab/llms-repo.md](example/mon-tab/llms-repo.md) for a real-world repository example
+
+## Naming Convention
+
+All files follow the pattern `llms-{scope}.md`:
+
+| Filename | Scope | Audience |
+|---|---|---|
+| `llms-paper.md` | Academic paper | Researchers |
+| `llms-repo.md` | Repository | Developers |
+| `llms-api.md` | API specification | Integration developers |
+| `llms-docs.md` | Documentation site | Documentation consumers |
+| `llms-code.md` | Codebase internals | LLM coding agents |
+
+The `llms-{scope}.md` pattern is extensible. Future scopes may include
+`llms-device.md`, `llms-env.md`, `llms-legal.md`, and others as LLM
+usage expands to new domains.
 
 ## Relationship to llms.txt
 

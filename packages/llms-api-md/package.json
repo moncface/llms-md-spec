@@ -1,0 +1,22 @@
+{
+  "name": "llms-api-md",
+  "version": "0.0.1",
+  "description": "Specification for llms-api.md — structured API summaries optimized for LLM tool use and integration",
+  "keywords": [
+    "llms.txt",
+    "api",
+    "openapi",
+    "LLM",
+    "specification",
+    "markdown",
+    "integration",
+    "tool-use"
+  ],
+  "author": "moncface",
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/moncface/llms-md-spec",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moncface/llms-md-spec"
+  }
+}
