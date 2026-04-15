@@ -1,5 +1,7 @@
 # llms-md-spec
 
+[![License](https://img.shields.io/github/license/moncface/llms-md-spec)](https://github.com/moncface/llms-md-spec/blob/main/LICENSE)
+
 > Extending llms.txt for academic papers and repositories — with `.md`
 
 ## What This Is
