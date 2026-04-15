@@ -28,5 +28,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/moncface/llms-md-spec"
+  },
+  "funding": {
+    "type": "ko-fi",
+    "url": "https://ko-fi.com/moncface"
   }
 }
